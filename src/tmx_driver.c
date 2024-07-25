@@ -3,7 +3,7 @@
 #include <linux/usb.h>
 #include <linux/hid.h>
 
-MODULE_LICENSE("GPLv3");
+MODULE_LICENSE("GPL");
 MODULE_AUTHOR("CyntexMore");
 MODULE_DESCRIPTION("Linux kernel modules for the Thrustmaster TMX Force Feedback racing wheel.");
 MODULE_VERSION("0.1");
