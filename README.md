@@ -9,6 +9,6 @@ Any kind of contribution is appreciated, especially addressing issues in the Git
 # TODOs
 Here is the TODO list:
 
-- [] Report all buttons
-- [] Report all axises
-- [] Implement force feedback (* going to take a lot of time probably)
+- [ ] Report all buttons
+- [ ] Report all axises
+- [ ] Implement force feedback (* going to take a lot of time probably)
