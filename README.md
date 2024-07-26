@@ -13,8 +13,14 @@ Here is the TODO list:
 
 - [x] Initialize the kernel module (partially done)
 - [ ] Report all buttons
-- [ ] Report all axises
+- [ ] Report all axes
 - [ ] Implement force feedback (* going to take a lot of time probably)
+- [ ] Implement configuration support
+    - [ ] Implement support for loading configuration files
+    - [ ] Allow user to specify maximum wheel rotation angle
+    - [ ] Implement flexible 1autocenter configuration
+    - [ ] Implement force feedback gain configuration
+    - * and more that I can't think of now
 - [ ] Make a GUI for configuration
 
 # Building
