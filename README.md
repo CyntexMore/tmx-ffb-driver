@@ -6,6 +6,8 @@ Linux kernel module for the Thrustmaster TMX Force Feedback racing wheel. — Th
 # Contributing
 Any kind of contribution is appreciated, especially addressing issues in the GitHub issues tab.
 
+Please use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) commit "identifiers".
+
 # TODOs
 Here is the TODO list:
 
@@ -22,6 +24,6 @@ You can build the kernel module with
 ```
 $ make
 ```
-in the `/src` directory then you can enable it with `insmod` and disable it with `rmmod`, you can check if it's active with `dmesg`.
+in the `/src` directory then you can enable it with `insmod` and disable it with `rmmod`, you can check if it's active with `dmesg` or `lsmod`.
 
 **! AGAIN, I HIGHLY ADVICE AGAINST RUNNING THIS KERNEL MODULE FOR NOW !**
