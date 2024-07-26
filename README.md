@@ -11,7 +11,7 @@ Please use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/
 # TODOs
 Here is the TODO list:
 
-- [x] Initialize the kernel module (partially done)
+- [x] Initialize the kernel module
 - [ ] Report all buttons
 - [ ] Report all axes
 - [ ] Implement force feedback (* going to take a lot of time probably)
