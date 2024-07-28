@@ -12,8 +12,9 @@ Please use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/
 Here is the TODO list:
 
 - [x] Initialize the kernel module
-- [ ] Report all buttons
-- [ ] Report all axes
+- [ ] Implement input handling
+    - [ ] Report all buttons
+    - [ ] Report all axes
 - [ ] Implement force feedback (* going to take a lot of time probably)
 - [ ] Implement configuration support
     - [ ] Implement support for loading configuration files
@@ -21,15 +22,29 @@ Here is the TODO list:
     - [ ] Implement flexible autocenter configuration
     - [ ] Implement force feedback gain configuration
     - (* and more that I can't think of now)
-- [ ] Make a GUI for configuration
+- [ ] Make a GUI for configuration with QT
 
 # Building
 **! I HIGHLY ADVICE AGAINST RUNNING THIS KERNEL MODULE FOR NOW ! IT IS ONLY HERE FOR TESTING !**
 
-You can build the kernel module with
+To build the kernel module you can run
 ```
 $ make
 ```
-in the `/src` directory then you can enable it with `insmod tmx_driver.ka` and disable it with `rmmod`, you can check if it's active with `lsmod`.
+in the `/src` directory then you can run
+```
+$ insmod tmx_driver.ka
+```
+activate it. You'll need root permissions to run `insmod` and you'll have to run `insmod` every time you want to activate the kernel module.
+
+If you want to install it you can run
+```
+$ make install
+```
+in the `/src` directory and then you can modprobe it with
+```
+$ modprobe tmx_driver
+```
+You'll need root permissions to run `make install` (because it will mess with "root only" directories) and to modprobe it.
 
 **! AS OF NOW THE KERNEL MODULE SOMEHOW BRICKS THE LINUX KERNEL SO DON'T TRY TO RUN IT !**
