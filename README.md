@@ -33,7 +33,7 @@ $ make
 ```
 in the `/src` directory then you can run
 ```
-$ insmod tmx_driver.ka
+$ insmod tmx_driver.ko
 ```
 to activate it. You'll need root permissions to run `insmod` and you'll have to run `insmod` every time you want to activate the kernel module.
 

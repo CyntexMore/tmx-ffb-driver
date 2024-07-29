@@ -15,12 +15,12 @@ MODS := tmx_driver.ko
 PWD := $(shell pwd)
 
 default:
-    $(MAKE) -C $(KDIR) M=$(PWD)
+	$(MAKE) -C $(KDIR) M=$(PWD)
 
 clean:
-    $(MAKE) -C $(KDIR) M=$(PWD) clean
+	$(MAKE) -C $(KDIR) M=$(PWD) clean
 
 install:
-    $(MAKE) -C $(KDIR) M=$(PWD) modules_install
+	$(MAKE) -C $(KDIR) M=$(PWD) modules_install
 
 endif
