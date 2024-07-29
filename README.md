@@ -8,6 +8,8 @@ Any kind of contribution is appreciated, especially addressing issues in the Git
 
 Please use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) commit "identifiers".
 
+Always make pull requests for the [dev branch](https://github.com/CyntexMore/tmx-ffb-driver/tree/dev) instead of the main branch.
+
 # TODOs
 Here is the TODO list:
 
