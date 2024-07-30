@@ -16,6 +16,7 @@ Always make pull requests for the [dev branch](https://github.com/CyntexMore/tmx
 Here is the TODO list:
 
 - [x] Initialize the kernel module
+- [x] Initialize the racing wheel (* partially done)
 - [ ] Implement input handling
     - [ ] Report all buttons
     - [ ] Report all axes
@@ -50,5 +51,3 @@ in the `/src` directory and then you can modprobe it with
 $ modprobe tmx_driver
 ```
 You'll need root permissions to run `make install` (because it will mess with "root only" directories) and to modprobe it.
-
-**! AS OF NOW THE KERNEL MODULE SOMEHOW BRICKS THE LINUX KERNEL SO DON'T TRY TO RUN IT !**
