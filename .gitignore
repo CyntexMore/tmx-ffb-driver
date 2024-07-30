@@ -1,8 +1,7 @@
 # Build files
-src/tmx_driver.mod
-src/tmx_driver.mod.c
-src/tmx_driver.mod.o
-src/tmx_driver.o
-src/tmx_driver.ko
-src/Module.symvers
-src/modules.order
+*.mod
+*.mod.c
+*.o
+*.ko
+*.symvers
+*.order

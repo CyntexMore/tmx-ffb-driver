@@ -1,6 +1,8 @@
 # Thrustmaster TMX Force Feedback racing wheel kernel module for the Linux kernel
 Linux kernel module for the Thrustmaster TMX Force Feedback racing wheel. — The kernel module is not ready yet, you can't use the racing wheel with this kernel module for now. — Track the progress in GitHub issues or the TODOs part of the README.
 
+I plan to create kernel module documentation in the future with [mdBook](https://github.com/rust-lang/mdBook).
+
 **Note**: *This is not an official kernel module by Thrustmaster. I take no responsibility for any damages caused by the software. By that I mean devices ruined, devices bricked and more. Use this at your own risk.*
 
 # Contributing
@@ -14,6 +16,7 @@ Always make pull requests for the [dev branch](https://github.com/CyntexMore/tmx
 Here is the TODO list:
 
 - [x] Initialize the kernel module
+- [x] Initialize the racing wheel (* partially done)
 - [ ] Implement input handling
     - [ ] Report all buttons
     - [ ] Report all axes
@@ -48,5 +51,3 @@ in the `/src` directory and then you can modprobe it with
 $ modprobe tmx_driver
 ```
 You'll need root permissions to run `make install` (because it will mess with "root only" directories) and to modprobe it.
-
-**! AS OF NOW THE KERNEL MODULE SOMEHOW BRICKS THE LINUX KERNEL SO DON'T TRY TO RUN IT !**
