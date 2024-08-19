@@ -30,7 +30,8 @@ Here is the TODO list:
 - [ ] Make a GUI for configuration with QT
 
 # Building
-**! I HIGHLY ADVICE AGAINST RUNNING THIS KERNEL MODULE FOR NOW ! IT IS ONLY HERE FOR TESTING !**
+>[!CAUTION]
+> I HIGHLY ADVICE AGAINST RUNNING THIS KERNEL MODULE FOR NOW! IT MIGHT BRICK THE LINUX KERNEL! IF IT DOES, TAKE A LOOK AT [THIS](https://github.com/CyntexMore/tmx-ffb-driver/issues/12) ISSUE.
 
 To build the kernel module you can run
 ```
